@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  
+    box-sizing: border-box;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+    background-image:url(../img/bg5.jpg); 
+  }
+  
+
+  
+
+
+
+
+
+.logo{
+
+  animation: rotate 3s linear infinite;
+}
+
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-img{
+  background-color: aqua;
+
+}
+
+.second_display-img{
+  font-size: 20px;
+}
